@@ -61,4 +61,5 @@ Pod::Spec.new do |s|
     webp.dependency 'SDWebImage/Core'
     webp.dependency 'libwebp', '>= 0.5', '< 2.0'
   end
+  s.resource_bundles = {'SDWebImage' => ['WebImage/PrivacyInfo.xcprivacy']}
 end
